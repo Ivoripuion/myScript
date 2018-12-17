@@ -1,7 +1,7 @@
-import os
+ï»¿import os
 import shutil 
 def cp_test(filename):
-	shutil.copy(filename,'E:\Python_work\cp_test')#½«Òª¸´ÖÆ»òÕß¼ôÇĞµÄÄ¿±êÂ·¾¶£¬¼ôÇĞÊ±Ä¿±êÎÄ¼ş¼Ğ²»ÄÜ´æÔÚÒ»ÑùµÄÎÄ¼ş
+	shutil.copy(filename,'E:\Python_work\cp_test')#å°†è¦å¤åˆ¶æˆ–è€…å‰ªåˆ‡çš„ç›®æ ‡è·¯å¾„ï¼Œå‰ªåˆ‡æ—¶ç›®æ ‡æ–‡ä»¶å¤¹ä¸èƒ½å­˜åœ¨ä¸€æ ·çš„æ–‡ä»¶
 def gci(filepath):
 	files=os.listdir(filepath)
 	for fi in files:
@@ -11,6 +11,6 @@ def gci(filepath):
 		else:
 			cp_test(fi_d)
 def main():
-	gci('E:\Python_work\cp_test_1')#½«Òª¸´ÖÆ»òÕß¼ôÇĞµÄÔ´Â·¾¶
+	gci('E:\Python_work\cp_test_1')#å°†è¦å¤åˆ¶æˆ–è€…å‰ªåˆ‡çš„æºè·¯å¾„
 if __name__=='__main__':
 	main()

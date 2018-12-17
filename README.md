@@ -1,6 +1,6 @@
-## myScript
+ï»¿## myScript
 some python scripts used in daily life
 
 #### 2018-12-18
 
-½«Ò»Ğ©½Å±¾ÕûÀíÁËÏÂ¡£ 
+å°†ä¸€äº›è„šæœ¬æ•´ç†äº†ä¸‹ã€‚ 
